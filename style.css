@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.content{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(233, 224, 224, 0.5),rgba(214, 200, 200, 0.75)),url("620aa2b58aecc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.counter-card{
+    background-color: rgba(250, 235, 215,0.7);
+    border: 2px solid rgb(83, 82, 82);
+    height: 80vh;
+    width: 30%;
+    box-shadow: 0 0 5px 10px #888888;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#count-el{
+    padding-top: 10px;
+}
+#save{
+    background-color: green;
+}
+.btn{
+   width: 70%;
+   margin-top: 20px;
+   padding: 10px;
+   cursor: pointer;
+   font-weight: bold;
+   font-size: larger;  
+   border: 2px solid rgb(231, 228, 222);
+   
+   border-radius: 5px; 
+   color: white;
+}
+#inc{
+    background-color: rgb(211, 6, 6);
+}
+.btn:active{
+    width: 68%;
+  transform: translateY(4px);
+    
+}
+#savePara{
+    margin-top: 20px;
+    font-weight: 500;
+}
+#ref{
+    background-color: rgb(86, 86, 156);
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
